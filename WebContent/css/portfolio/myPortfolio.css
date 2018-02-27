@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+/* 나눔스퀘어 라운드 글씨 폰트 */
+@font-face{
+	font-family: "NanumSquareRoundB";
+	src: url("../../font/NanumSquareRoundB.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "NanumSquareRoundEB";
+	src: url("../../font/NanumSquareRoundEB.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "NanumSquareRoundL";
+	src: url("../../font/NanumSquareRoundL.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "NanumSquareRoundR";
+	src: url("../../font/NanumSquareRoundR.ttf") format("truetype");
+}
+
+
+body{
+	background-color: #f7f1e1;
+}
+
+section{
+	width: 95%;
+	margin: 0 auto;
+}
+
+div#textDiv{
+	width: 65%;
+	margin: 5% auto 3%; 
+	text-align: center;
+	font-family: NanumSquareRoundEB;
+	font-size: 5em; 
+	color: #44433f;
+}
+
+div#textDiv span{
+	font-size: 1.3em;
+	color: #eb6c65;
+}
+
+div#telDiv{
+	width: 65%;
+	margin: 5% auto 0; 
+	text-align: center;
+	color: #44433f;
+	vertical-align: top;
+}
+
+div#telDiv img{
+	width: 50px;
+}
+
+div#telDiv span{
+	font-family: NanumSquareRoundEB;
+	font-size: 4em;
+}
+
+div#imgContainer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div#imgContainer div{
+	width: 14.1%;
+	height: 430px;
+	float: left;
+}
+
+div#imgContainer div span[class*='Size'] img{
+	cursor: pointer;	
+}
+
+div#imgContainer span.speech img{
+	width: 90%;
+	visibility: hidden;
+}
+
+div#imgContainer span.normalSize img{
+	width: 95%;
+	margin-top: -6%;
+}
+
+
+div#imgContainer span.middleSize img{
+	width: 85%;
+}
+
+div#imgContainer span.smallSize img{
+	width: 75%;
+}
+
+div#imgContainer span.ssmallSize img{
+	width: 65%;
+}

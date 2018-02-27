@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+@font-face{
+	font-family: "NanumSquareRoundEB";
+	src: url("../../font/NanumSquareRoundEB.ttf") format("truetype");
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #eb6c65;
+	font-family: "NanumSquareRoundEB";
+}
+
+div#imgContainer{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header{
+	width: 100%;
+	margin: 0 auto;
+}
+
+div#headerText{
+	height: 50px;
+	background-color: #f7f1e1;
+}
+
+
+div#headerText div{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	width: 45%;
+	padding-left: 2%;
+	color: #44433f;
+	font-size: 1em;
+}
+
+div#headerText span{
+	color: #eb6c65;
+}
+
+div#headerText div#headerRight{
+	float: right;
+	text-align: right;
+	padding-right: 2%;
+}
+
+div.bx-wrapper{
+	clear: both;
+	width: 100% !important;
+	margin: 2% auto 0 !important;
+}
+
+section{
+	width: 50%;
+	margin: 3% auto 5%;
+	line-height: 50px;
+}
+
+section dt{
+	font-size: 2em;
+	color: #44433f;
+}
+
+section dd{
+	color: #f7f1e1;
+	font-size: 1.5em;
+	margin-left: 4%;
+}
+
+section dd ul li img{
+	width: 8%;
+}
+
+section dd a{
+	color: #f7f1e1;
+	text-decoration: none;
+}
+
+section dd a:hover{
+	color: #44433f;
+}
+
+
