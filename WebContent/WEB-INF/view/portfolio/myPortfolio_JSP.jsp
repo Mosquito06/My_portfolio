@@ -70,7 +70,7 @@
 					관련 링크
 				</dt>
 				<dd>
-					<a href=""></a>
+					<a href="http://skykim10908.cafe24.com/Project_JSP/" target="blank">SHILLA HOTEL DAEGU</a>
 				</dd>
 			</dl>
 		</section>

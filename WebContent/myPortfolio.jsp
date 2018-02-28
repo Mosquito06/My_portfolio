@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome Mosquito's Homepage</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio.css?a=d">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio.css?a=ddd">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/portfolio/myPortfolio.js?a=ddd"></script>
 </head>
@@ -49,6 +49,10 @@
 					<span class="speech"><img src="${pageContext.request.contextPath }/img/portfolio/avatar/3-2.png"></span>
 					<span class="ssmallSize"><img src="${pageContext.request.contextPath }/img/portfolio/avatar/3.png"></span>
 				</div>
+			</div>
+			<div id="alertDiv">
+				※ 각 프로젝트 소개 페이지에 사용된 bxSlider에 사진이 많아 제대로 출력되지 않을 수도 있습니다.<br>
+				새로고침(F5)하면 제대로 출력됩니다.
 			</div>
 		</section>
 	</div>

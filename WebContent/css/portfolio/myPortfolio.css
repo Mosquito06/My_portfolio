@@ -53,6 +53,13 @@ div#telDiv{
 	vertical-align: top;
 }
 
+div#alertDiv{
+	clear: both;
+	font-family: NanumSquareRoundEB;
+	text-align: center;
+	color: #44433f;
+}
+
 div#telDiv img{
 	width: 50px;
 }

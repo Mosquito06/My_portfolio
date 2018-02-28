@@ -16,9 +16,10 @@ public class DownloadHandler implements CommandHandler{
 		String filename = req.getParameter("filename");
 		
 		String savePath = "download";
-		String downloadPath = req.getRealPath(savePath);
-		String filePath = downloadPath + "\\" + filename;
-		System.out.println(filePath);
+		String downloadPath = "/home/hosting_users/skykim10908/tomcat/webapps/My_portfolio/download";
+		// System.out.println("downloadPath=" + downloadPath);
+		String filePath = downloadPath + "/" + filename;
+		// System.out.println("filePath = " + filePath);
 		
 		FileInputStream is = new FileInputStream(filePath);
 		
