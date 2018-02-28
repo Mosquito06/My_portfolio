@@ -74,6 +74,9 @@
 				</dd>
 			</dl>
 		</section>
+		<footer>
+			<img src="${pageContext.request.contextPath }/img/portfolio/card.png">
+		</footer>
 	</div>
 </body>
 </html>

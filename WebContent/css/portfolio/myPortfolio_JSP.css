@@ -81,12 +81,12 @@ section dd ul li img{
 }
 
 section dd a{
-	color: #44433f;
+	color: #f7f1e1;
 	text-decoration: none;
 }
 
 section dd a:hover{
-	color: #eb6c65;
+	color: #44433f;
 }
 
 footer{
@@ -96,4 +96,5 @@ footer{
 footer img{
 	width: 18%;
 }
+
 
