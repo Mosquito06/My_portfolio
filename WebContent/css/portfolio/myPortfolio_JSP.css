@@ -53,9 +53,9 @@ div#headerText div#headerRight{
 	padding-right: 2%;
 }
 
+
 div.bx-wrapper{
 	clear: both;
-	width: 100% !important;
 	margin: 2% auto 0 !important;
 }
 
@@ -87,6 +87,10 @@ section dd a{
 
 section dd a:hover{
 	color: #eb6c65;
+}
+
+span.alertDD{
+	font-size: 0.8em;
 }
 
 footer{

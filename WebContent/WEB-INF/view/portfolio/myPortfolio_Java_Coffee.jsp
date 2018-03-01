@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Java_Coffee.css?a=ddd">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Java_Coffee.css?a=d">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -45,7 +45,7 @@
 							COFFEE 프로그램
 						</li>
 						<li>
-							작업 기간: 2017.08, 2017.11
+							작업 기간: 2017.10.18 ~ 2017.10.21
 						</li>
 						<li>
 							개발 도구: Eclipse, MySQL
@@ -56,14 +56,22 @@
 					프로젝트 설명
 				</dt>
 				<dd>
-					HTML과 CSS을 이용하여 가상 여행 홈페이지의 메인을 구현(반응형으로 제작).<br>
-					이후에 JavaScript와 JQuery를 이용하여 동일한 컨셉의 홈페이지를 구현
+					프로그래밍 공부를 시작하고 처음 제작한 프로그램. JAVA의 SWING을 활용해 커피 제품과 실적을 관리할 수 있는 프로그램 제작. 
+					사용자가 제품을 등록하고 관련 실적을 관리할 수 있음. 마진액과 판매금액으로 정렬된 결과를 제시하는 기능이 제공됨
 				</dd>
 				<dt>
 					관련 링크
 				</dt>
 				<dd>
-					<a href="${pageContext.request.contextPath }/download.do?filename=RentCar.zip">RentCar.zip</a>
+					<a href="${pageContext.request.contextPath }/download.do?filename=Coffee.zip">Coffee.zip</a>
+				</dd>
+				<dt>
+					주의사항
+				</dt>
+				<dd>
+					<span class="alertDD">
+					로그인 하기 전 DB설치하기 → 초기화 → 복원을 수행해야 함<br>
+					</span>
 				</dd>
 			</dl>
 		</section>

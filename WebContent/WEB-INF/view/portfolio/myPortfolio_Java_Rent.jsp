@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Java_Rent.css?a=ddd">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Java_Rent.css?a=dd">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -68,14 +68,25 @@
 					프로젝트 설명
 				</dt>
 				<dd>
-					Cordova를 활용한 하이브리드 프로젝트. 팀원 1명과 함께 공동으로 작업하였으며, 전반적인 UI 작업 및 네이버 지도 API를 활용한 위치 찾기, 버스 정류장 위치 정보를 제공하는 작업을 담당하였음.
-					주된 앱의 특징으로 버스 도착 및 하차 전 진동이 울리도록 구현하였으나, 개발에 이용한 버스위치정보조회서비스(공공데이터포털)가 생각한 것에 비해 갱신이 느려 알람이 부정확한 단점이 있음  
+					JAVA의 SWING을 활용해 렌트카 프로그램을 제작. 사용자 기능으로 대여하기, 이용내역확인, 내 정보 수정을 구현하였으며, 
+					관리자 기능으로 고객관리, 차량관리, 성과현황관리를 구현하였음. 성과현황관리에서는 이용내역을 수치와 그래프로 확인할 수 있도록 구현하였음.
 				</dd>
 				<dt>
 					관련 링크
 				</dt>
 				<dd>
 					<a href="${pageContext.request.contextPath }/download.do?filename=RentCar.zip">RentCar.zip</a>
+				</dd>
+				<dt>
+					주의사항
+				</dt>
+				<dd>
+					<span class="alertDD">
+					1. 로그인 하기 전 DB설치하기 → 초기화 → 복원을 수행해야 함<br>
+					2. 회원가입을 통한 로그인은 불가(DB에 주소를 추가하면 가능, 아래 ID로만 접속가능)<br>
+					3. 사용자 ID: RENTHAJO003, PW: 1234567890<br>
+					4. 관리자 ID: RENTADMINISTER, PW: 1234567890
+					</span>
 				</dd>
 			</dl>
 		</section>
