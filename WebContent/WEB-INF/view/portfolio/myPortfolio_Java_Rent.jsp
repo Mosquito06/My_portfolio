@@ -22,19 +22,21 @@
 					010.3634.0396
 				</div>
 			</div>
-			<div class="bxSliderImg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/0.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/1.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/2.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/3.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/4.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/5.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/6.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/7.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/8.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/9.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/10.jpg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/rent/11.jpg">
+			<div id="bxContainer">
+				<div class="bxSliderImg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/0.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/1.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/2.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/3.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/4.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/5.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/6.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/7.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/8.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/9.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/10.jpg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/rent/11.jpg">
+				</div>
 			</div>
 		</header>
 		<section>

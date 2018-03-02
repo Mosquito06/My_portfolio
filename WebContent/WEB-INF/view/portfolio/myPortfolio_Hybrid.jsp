@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Hybrid.css?a=dd">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_Hybrid.css?a=ddd">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -22,17 +22,19 @@
 					010.3634.0396
 				</div>
 			</div>
-			<div class="bxSliderImg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0-2.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0-1.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/1.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/2.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/3.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/4.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/5.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/6.png">
-				<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/7.png">
+			<div id="bxContainer">
+				<div class="bxSliderImg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0-2.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0-1.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/0.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/1.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/2.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/3.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/4.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/5.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/6.png">
+					<img src="${pageContext.request.contextPath }/img/portfolio/hybrid/7.png">
+				</div>
 			</div>
 		</header>
 		<section>

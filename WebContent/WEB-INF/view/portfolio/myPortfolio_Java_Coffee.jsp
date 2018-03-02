@@ -22,13 +22,15 @@
 					010.3634.0396
 				</div>
 			</div>
-			<div class="bxSliderImg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/1.PNG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/2.PNG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/3.PNG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/4.PNG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/5.PNG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/coffee/6.png">
+			<div id="bxContainer">
+				<div class="bxSliderImg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/1.PNG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/2.PNG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/3.PNG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/4.PNG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/5.PNG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/coffee/6.png">
+				</div>
 			</div>
 		</header>
 		<section>

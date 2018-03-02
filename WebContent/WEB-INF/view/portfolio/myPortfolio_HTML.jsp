@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_HTML.css?a=ddd">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio_HTML.css?a=d">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -22,12 +22,14 @@
 					010.3634.0396
 				</div>
 			</div>
-			<div class="bxSliderImg">
-				<img src="${pageContext.request.contextPath }/img/portfolio/html/0.JPG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/html/1.JPG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/html/2.JPG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/html/3.JPG">
-				<img src="${pageContext.request.contextPath }/img/portfolio/html/4.JPG">
+			<div id="bxContainer">
+				<div class="bxSliderImg">
+					<img src="${pageContext.request.contextPath }/img/portfolio/html/0.JPG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/html/1.JPG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/html/2.JPG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/html/3.JPG">
+					<img src="${pageContext.request.contextPath }/img/portfolio/html/4.JPG">
+				</div>
 			</div>
 		</header>
 		<section>
