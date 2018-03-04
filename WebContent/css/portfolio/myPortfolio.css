@@ -53,13 +53,6 @@ div#telDiv{
 	vertical-align: top;
 }
 
-div#alertDiv{
-	clear: both;
-	font-family: NanumSquareRoundEB;
-	text-align: center;
-	color: #44433f;
-}
-
 div#telDiv img{
 	width: 50px;
 }
@@ -71,13 +64,12 @@ div#telDiv span{
 
 div#imgContainer{
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 25%;
 	text-align: center;
 }
 
 div#imgContainer div{
 	width: 14.1%;
-	height: 430px;
 	float: left;
 }
 
@@ -106,4 +98,11 @@ div#imgContainer span.smallSize img{
 
 div#imgContainer span.ssmallSize img{
 	width: 65%;
+}
+
+div#alertDiv{
+	clear: both;
+	font-family: NanumSquareRoundEB;
+	text-align: center;
+	color: #44433f;
 }

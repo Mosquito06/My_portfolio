@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Welcome Mosquito's Homepage</title>
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio.css?a=ddd">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/portfolio/myPortfolio.css?a=d">
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="${pageContext.request.contextPath }/js/portfolio/myPortfolio.js?a=ddd"></script>
 </head>
